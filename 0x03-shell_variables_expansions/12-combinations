@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(echo {a..z}{a..z} | sed 's/ /\n/g')" | grep -Ev '^o.|oo'
+for a in {a..z};do for b in {a..z};do [ "$a$b" = oo ]||[ "$a" = o ]||[ "$b" = o ]||echo $a$b;done;done|grep -v oo|sort
