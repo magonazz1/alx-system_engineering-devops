@@ -23,7 +23,7 @@ Follow these steps along with the specific commands to harness the power of Bash
 4. **Paste SFTP Client Address:**
    - I copy and paste the SFTP client address provided by my sandbox into the Git-Bash terminal, establishing a secure connection.
      ```bash
-     $ sftp :stuck_out_tongue_winking_eye::stuck_out_tongue_winking_eye::stuck_out_tongue_winking_eye::stuck_out_tongue_winking_eye:
+     $ sftp :stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye:
      ```
 
 5. **Navigate to Screenshot Folder:**
