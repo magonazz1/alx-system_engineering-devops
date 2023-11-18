@@ -28,7 +28,7 @@ Follow these steps along with the specific commands to harness the power of Bash
      ```
 
 5. **Navigate to Screenshot Folder:**
-   - Using the `cd` command, I navigate to the directory on my local machine where the screenshot files are stored.
+   - Using the `lcd` command, I navigate to the directory on my local machine where the screenshot files are stored.
      ```bash
      sftp> lcd C://Martz/Desktop/screenshots
      ```
