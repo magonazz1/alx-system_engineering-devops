@@ -34,10 +34,13 @@ Follow these steps along with the specific commands to harness the power of Bash
      ```
 
 6. **Recursively Copy Screenshots:**
-   - I employ the command `get -r screenshots` to efficiently and recursively copy all contents from my local machine to the sandbox environment.
+   - I employ the command `put -R *` to efficiently and recursively copy all contents from my local machine to the sandbox environment.
      ```bash
-     sftp> get -r screenshots
+     sftp> put -R *
      ```
+Now this step will make my screenshots arrive at my sandbox's root directory, so now, all I have to do is move them from the root directory and put them in the required directory using the `mv *.png alx-system_engineering-devops/command_line_for_the_win` command
+
+However, take note, after using the command `put -R *` to upload my files, I needed to disconnect my `sftp` client first, then reconnect my sandbox server using `ssh` client and perform the `mv *.png alx-system_engineering-devops/command_line_for_the_win ` command.
 
 7. **Verify Screenshot Placement:**
    - I ensure the correct placement of all screenshots within the sandbox directory using appropriate verification commands.
