@@ -17,25 +17,26 @@ Follow these steps along with the specific commands to harness the power of Bash
 3. **Open Git-Bash Terminal:**
    - I launch the Git-Bash terminal on my local machine, setting the stage for executing powerful Bash commands.
      ```bash
-     $ git-bash
+     Martz@HP-Envy-x360 MINGW64/
+     $
      ```
 
 4. **Paste SFTP Client Address:**
    - I copy and paste the SFTP client address provided by my sandbox into the Git-Bash terminal, establishing a secure connection.
      ```bash
-     $ sftp 😜😜😜😜😜😜😜😜@host😜😜😜😜
+      $ 😜😜😜😜😜😜😜😜@host😜😜😜😜
      ```
 
 5. **Navigate to Screenshot Folder:**
    - Using the `cd` command, I navigate to the directory on my local machine where the screenshot files are stored.
      ```bash
-     $ cd C://Martz/Desktop/screenshots
+     sftp> lcd C://Martz/Desktop/screenshots
      ```
 
 6. **Recursively Copy Screenshots:**
    - I employ the command `get -r screenshots` to efficiently and recursively copy all contents from my local machine to the sandbox environment.
      ```bash
-     $ get -r screenshots
+     sftp> get -r screenshots
      ```
 
 7. **Verify Screenshot Placement:**
@@ -49,7 +50,7 @@ Follow these steps along with the specific commands to harness the power of Bash
      ```bash
      $ git add .
      $ git commit -m "Add screenshots"
-     $ git push origin main
+     $ git push
      ```
 ## License
 
