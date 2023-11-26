@@ -2,7 +2,7 @@
 # This script prints "Best School" 10 times using "until" function
 
 ((i = 1))
-until ((i <= 10)); do
+until ((i > 10)); do
 	echo "Best School"
 	((i++))
 done
