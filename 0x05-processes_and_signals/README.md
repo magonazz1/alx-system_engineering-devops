@@ -2,7 +2,7 @@
 
 ## Overview
 
-This projct covers a set of Bash scripts and a C program focused on processes and signals. The tasks involve creating scripts to display process information, managing processes, and handling signals. Additionally, a C program is provided to demonstrate the creation of zombie processes.
+This project covers a set of Bash scripts and a C program focused on processes and signals. The tasks involve creating scripts to display process information, managing processes, and handling signals. Additionally, a C program is provided to demonstrate the creation of zombie processes.
 
 ## Tasks
 
