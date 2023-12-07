@@ -8,7 +8,6 @@
 
 while ((a == 0)); do
 	echo "To infinity and beyond"
-	trap "echo I am invincible" SIGTERM
+	trap "echo I am invincible!!!" SIGTERM
 	sleep 2
-
 done
