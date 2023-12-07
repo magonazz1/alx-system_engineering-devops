@@ -14,11 +14,9 @@ del() {
 }
 
 ((a = 0))
-# Extract the PID of our file
-pid=$(pgrep -f "100-process_and_pid_file")
 
 # Put the PID into the "myscript.pid" file
-echo "$pid" > /var/run/myscript.pid
+echo "$$" > /var/run/myscript.pid
 
 # Display our loop iteration and respond to signals
 
@@ -28,4 +26,5 @@ trap del SIGQUIT SIGTERM
 
 while ((a == 0)); do
 	echo "To infinity and beyond"
+	sleep 2
 done
