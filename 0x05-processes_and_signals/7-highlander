@@ -3,12 +3,22 @@
 #	"To infinity and beyond" indefinitely
 #	With a sleep 2 in between each iteration
 #	I am invincible!!! when receiving a SIGTERM signal
-((a = 0))
+#((a = 0))
 
-while ((a < 1)); do
-	echo "To infinity and beyond"
-	trap "echo I am invincible" SIGTERM
-	sleep 2
-	((a--))
+# while ((a < 1)); do
+#	echo "To infinity and beyond"
+#	trap "echo I am invincible" SIGTERM
+#	sleep 2
+#	((a--))
+#
+# done
+#!/usr/bin/env bash
+# Display To infinity and beyond indefinitely/With a sleep 2 in between each iteration/I am invincible!!! when receiving a SIGTERM signal
 
+index=0
+
+while ((index == 0)); do
+    echo "To infinity and beyond"
+    trap "echo I am invincible!!!" SIGTERM
+    sleep 2
 done
