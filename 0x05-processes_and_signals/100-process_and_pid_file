@@ -7,24 +7,15 @@
 #	Deletes the file /var/run/myscript.pid and terminates itself when
 #	receiving a SIGQUIT or SIGTERM signal
 
-# Function to delete the "myscript.pi" file
-del() {
-	rm -f myscript.pid
-	pkill -f 100-process_and_pid_file
-}
+echo "$$" > /var/run/myscript.pid
+trap 'echo "I hate the kill command"
+rm /var/run/myscript.pid; exit' SIGTERM
+trap 'echo "Y U no love me?!"' SIGINT
+trap "rm /var/run/myscript.pid;exit" SIGQUIT
 
 ((a = 0))
 
-# Put the PID into the "myscript.pid" file
-echo "$$" > /var/run/myscript.pid
-
-# Display our loop iteration and respond to signals
-
-trap "echo I hate the kill command" SIGTERM
-trap "echo Y U no love me?!" SIGINT
-trap del SIGQUIT SIGTERM
-
 while ((a == 0)); do
-	echo "To infinity and beyond"
-	sleep 2
+    echo "To infinity and beyond"
+    sleep 2
 done
