@@ -3,15 +3,15 @@
 
 file_path=/var/run/my_process.pid
 
-if [ "$1" -eq "start" ];then
+if [ "$1" = "start" ];then
     ./manage_my_process &
     echo "$$" > $file_path
     echo "manage_my_process started"
-elif [ "$1" -eq "stop" ];then
+elif [ "$1" = "stop" ];then
     pkill -f ./manage_my_process
     rm $file_path
     echo "manage_my_process stopped"
-elif [ "$1" -eq "restart" ];then
+elif [ "$1" = "restart" ];then
      pkill -f ./manage_my_process
      rm $file_path
      ./manage_my_process &
