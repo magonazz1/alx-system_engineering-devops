@@ -130,6 +130,8 @@ $
   - File: 6-phone_number.rb
 
 ### 7. OMG WHY ARE YOU SHOUTING?
+![task 7](./rcs/7-task-snipet.jpg)
+
 - **Requirement:**
   - The regular expression must only match capital letters.
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
