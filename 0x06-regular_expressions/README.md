@@ -18,6 +18,8 @@ This script takes an argument and applies a regular expression to match a specif
 ### 0. Simply Matching School
 ![task 0](./rcs/0-task-snipet.png)
 
+Disregard the Image (Must've been a mistake)
+
 - **Requirements:**
   - The regular expression must match the string "School."
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
