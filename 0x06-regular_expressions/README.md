@@ -16,7 +16,7 @@ This script takes an argument and applies a regular expression to match a specif
 ## Tasks
 
 ### 0. Simply Matching School
-https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/0-%20task%20-%20snipet.png
+[task 0](/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/0-%20task%20-%20snipet.png)
 
 - **Requirements:**
   - The regular expression must match the string "School."
