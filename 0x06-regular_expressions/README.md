@@ -16,6 +16,8 @@ This script takes an argument and applies a regular expression to match a specif
 ## Tasks
 
 ### 0. Simply Matching School
+https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/0-%20task%20-%20snipet.png
+
 - **Requirements:**
   - The regular expression must match the string "School."
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
@@ -37,6 +39,8 @@ $
   - File: 0-simply_match_school.rb
 
 ### 1. Repetition Token #0
+https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/1-%20task%20-%20snipet.png
+
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
@@ -47,6 +51,8 @@ $
   - File: 1-repetition_token_0.rb
 
 ### 2. Repetition Token #1
+https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/2-%20task%20-%20snipet.png
+
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
@@ -67,6 +73,8 @@ $
   - File: 3-repetition_token_2.rb
 
 ### 4. Repetition Token #3
+https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/4-%20task%20-%20snipet.png
+
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
