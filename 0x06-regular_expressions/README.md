@@ -39,7 +39,7 @@ $
   - File: 0-simply_match_school.rb
 
 ### 1. Repetition Token #0
-https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/1-%20task%20-%20snipet.png
+![task 1](./rcs/1-task-snipet.png)
 
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
@@ -51,7 +51,7 @@ https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regu
   - File: 1-repetition_token_0.rb
 
 ### 2. Repetition Token #1
-https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/2-%20task%20-%20snipet.png
+![task 2](./rcs/2-task-snipet.png)
 
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
@@ -63,6 +63,8 @@ https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regu
   - File: 2-repetition_token_1.rb
 
 ### 3. Repetition Token #2
+![task 3](./rcs/3-task-snipet.png)
+
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
   - Create a Ruby script that accepts one argument and passes it to a regular expression matching method.
@@ -73,7 +75,7 @@ https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regu
   - File: 3-repetition_token_2.rb
 
 ### 4. Repetition Token #3
-https://github.com/magonazz1/alx-system_engineering-devops/blob/master/0x06-regular_expressions/rcs/4-%20task%20-%20snipet.png
+![task 4](./rcs/4-task-snipet.png)
 
 - **Requirements:**
   - Find the regular expression that matches the specified cases.
