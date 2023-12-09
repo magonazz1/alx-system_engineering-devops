@@ -1,4 +1,4 @@
-# Project: 0x06. Regular Expression
+# 0x06 Regular Expression
 
 ## Overview
 This project involves working with regular expressions using Oniguruma, a regular expression library used by Ruby by default. The goal is to create Ruby scripts that accept input arguments and utilize regular expressions to perform matching tasks.
