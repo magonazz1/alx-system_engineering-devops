@@ -16,7 +16,7 @@ This script takes an argument and applies a regular expression to match a specif
 ## Tasks
 
 ### 0. Simply Matching School
-[task 0](/rcs/0-task-snipet.png)
+![task 0](/rcs/0-task-snipet.png)
 
 - **Requirements:**
   - The regular expression must match the string "School."
