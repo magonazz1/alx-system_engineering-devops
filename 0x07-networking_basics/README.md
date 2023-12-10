@@ -39,6 +39,7 @@ This project covers fundamental concepts in networking, including the OSI model,
     3
     sylvain@ubuntu$
     ```
+# Project TASKS
 
 ## OSI Model
 
