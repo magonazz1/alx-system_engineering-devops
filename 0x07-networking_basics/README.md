@@ -61,8 +61,8 @@ The OSI (Open Systems Interconnection) model is an abstract framework that descr
    - C. Randomly
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - File: [0-OSI_model](./0-OSI_model)
 ---
 
@@ -89,8 +89,8 @@ This section covers different types of networks, distinguishing between LAN (Loc
    - C. LAN
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - file: [1-types_of_network](./1-types_of_network)
 ---
 
@@ -112,8 +112,8 @@ This section covers MAC (Media Access Control) and IP (Internet Protocol) addres
    - C. Is a number that network devices use to connect to networks
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - File: [2-MAC_and_IP_address](./2-MAC_and_IP_address)
 
 ## UDP and TCP
@@ -132,8 +132,8 @@ This section delves into the characteristics of UDP (User Datagram Protocol) and
    - B. It is a protocol that is transferring data in a fast way and might lose data along in the process
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - File: [3-UDP_and_TCP](./3-UDP_and_TCP)
 
 ## TCP and UDP Ports
@@ -144,8 +144,8 @@ This section explains the role of ports in TCP and UDP, emphasizing the importan
 - Write a Bash script that displays listening ports.
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - File: [4-TCP_and_UDP_ports](./4-TCP_and_UDP_ports)
 
 ## Is the Host on the Network
@@ -158,8 +158,8 @@ This section introduces a Bash script that uses ICMP to ping an IP address and d
 - Write a Bash script that pings an IP address passed as an argument.
 
 **Repository:**
-- GitHub: [alx-system_engineering-devops]
-- Directory: [0x07-networking_basics]
+- GitHub: alx-system_engineering-devops
+- Directory: 0x07-networking_basics
 - File: [5-is_the_host_on_the_network](./5-is_the_host_on_the_network)
 
 # Conclusion
