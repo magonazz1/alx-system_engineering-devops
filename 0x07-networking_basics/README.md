@@ -18,8 +18,11 @@ This project covers fundamental concepts in networking, including the OSI model,
 ## OSI Model
 
 The OSI (Open Systems Interconnection) model is an abstract framework that describes the communication functions of a telecommunication system. It consists of seven layers, from the lowest physical layer to the highest application-specific layer. In this project, we focus on the Transport layer (TCP/UDP) and the Network layer (IP and ICMP).
+
 ![net0](./rcs/net0.png)
+
 ![net0-1](./rcs/net0-1.png)
+
 **Questions:**
 1. What is the OSI model?
    - A. Set of specifications that network hardware manufacturers must respect
@@ -41,7 +44,9 @@ The OSI (Open Systems Interconnection) model is an abstract framework that descr
 ## Types of Network
 
 This section covers different types of networks, distinguishing between LAN (Local Area Network), WAN (Wide Area Network), and the Internet.
+
 ![net1](./rcs/net1.jpg)
+
 **Questions:**
 1. What type of network is a computer in a local area connected to?
    - A. Internet
@@ -68,7 +73,9 @@ This section covers different types of networks, distinguishing between LAN (Loc
 ## MAC and IP Address
 
 This section covers MAC (Media Access Control) and IP (Internet Protocol) addresses, highlighting their functions and distinctions.
+
 ![net2](./rcs/net2.jpg)
+
 **Questions:**
 1. What is a MAC address?
    - A. The name of a network interface
@@ -88,7 +95,9 @@ This section covers MAC (Media Access Control) and IP (Internet Protocol) addres
 ---
 
 ## UDP and TCP
+
 ![net3](./rcs/net3.jpg)
+
 This section delves into the characteristics of UDP (User Datagram Protocol) and TCP (Transmission Control Protocol) and their roles in data transfer.
 
 **Questions:**
@@ -124,7 +133,9 @@ This section explains the role of ports in TCP and UDP, emphasizing the importan
 ## Is the Host on the Network
 
 This section introduces a Bash script that uses ICMP to ping an IP address and determine if a network device is available.
+
 ![net5](./rcs/net5.gif)
+
 **Tasks:**
 - Write a Bash script that pings an IP address passed as an argument.
 
