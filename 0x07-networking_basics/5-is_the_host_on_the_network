@@ -5,9 +5,9 @@
 # - Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
 # - Ping the IP 5 times
 
-if (($# == 0)); then
+if (($1 == 0)); then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 	exit 1
 else
-	ping -n -5 $*
+	ping -n -5 $1
 fi
