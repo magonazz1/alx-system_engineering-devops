@@ -19,12 +19,40 @@ Write a Bash script that configures an Ubuntu server with the below requirements
 **Example:**
 
 ```bash
-	sylvain@ubuntu$ ping localhost
-	# Output truncated for brevity
-	sylvain@ubuntu$ sudo ./0-change_your_home_IP
-	# Output truncated for brevity
-	sylvain@ubuntu$ ping localhost
-	# Output truncated for brevity
+ sylvain@ubuntu$ ping localhost
+ PING localhost (127.0.0.1) 56(84) bytes of data.
+ 64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.012 ms
+ ^C
+ --- localhost ping statistics ---
+ 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+ rtt min/avg/max/mdev = 0.012/0.012/0.012/0.000 ms
+ sylvain@ubuntu$
+ sylvain@ubuntu$ ping facebook.com
+ PING facebook.com (157.240.11.35) 56(84) bytes of data.
+ 64 bytes from edge-star-mini-shv-02-lax3.facebook.com (157.240.11.35): icmp_seq=1 ttl=63 time=15.4 ms
+ ^C
+ --- facebook.com ping statistics ---
+ 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+ rtt min/avg/max/mdev = 15.432/15.432/15.432/0.000 ms
+ sylvain@ubuntu$
+ sylvain@ubuntu$ sudo ./0-change_your_home_IP
+ sylvain@ubuntu$
+ sylvain@ubuntu$ ping localhost
+ PING localhost (127.0.0.2) 56(84) bytes of data.
+ 64 bytes from localhost (127.0.0.2): icmp_seq=1 ttl=64 time=0.012 ms
+ 64 bytes from localhost (127.0.0.2): icmp_seq=2 ttl=64 time=0.036 ms
+ ^C
+ --- localhost ping statistics ---
+ 2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+ rtt min/avg/max/mdev = 0.012/0.024/0.036/0.012 ms
+ sylvain@ubuntu$
+ sylvain@ubuntu$ ping facebook.com
+ PING facebook.com (8.8.8.8) 56(84) bytes of data.
+ 64 bytes from facebook.com (8.8.8.8): icmp_seq=1 ttl=63 time=8.06 ms
+ ^C
+ --- facebook.com ping statistics ---
+ 1 packets transmitted, 1 received, 0% packet loss, time 0ms
+ rtt min/avg/max/mdev = 8.065/8.065/8.065/0.000 ms
 ```
 
 **In this example, we can see that:**
@@ -44,8 +72,10 @@ Write a Bash script that displays all active IPv4 IPs on the machine it’s exec
 **Example:**
 
 ```bash
-sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
-# Output truncated for brevity
+ sylvain@ubuntu$ ./1-show_attached_IPs | cat -e
+ 10.0.2.15$
+ 127.0.0.1$
+ sylvain@ubuntu$
 ```
 
 Obviously, the IPs displayed may be different depending on which machine you are running the script on.
@@ -64,7 +94,7 @@ Write a Bash script that listens on port 98 on localhost.
 Starting my script.
 
 ```bash
-sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
+ sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
 ```
 
 **Terminal 1:**
@@ -72,8 +102,12 @@ sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
 Connecting to localhost on port 98 using telnet and typing some text.
 
 ```bash
-sylvain@ubuntu$ telnet localhost 98
-# Output truncated for brevity
+ sylvain@ubuntu$ telnet localhost 98
+ Trying 127.0.0.2...
+ Connected to localhost.
+ Escape character is '^]'.
+ Hello world
+ test
 ```
 
 **Terminal 0:**
@@ -81,8 +115,9 @@ sylvain@ubuntu$ telnet localhost 98
 Receiving the text on the other side.
 
 ```bash
-sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
-# Output truncated for brevity
+ sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
+ Hello world
+ test
 ```
 
 For the sake of the exercise, this connection is made entirely within localhost. This isn’t really exciting as is, but we can use this script across networks as well. Try running it between your local PC and your remote server for fun!
