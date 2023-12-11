@@ -19,12 +19,12 @@ Write a Bash script that configures an Ubuntu server with the below requirements
 **Example:**
 
 ```bash
-sylvain@ubuntu$ ping localhost
-# Output truncated for brevity
-sylvain@ubuntu$ sudo ./0-change_your_home_IP
-# Output truncated for brevity
-sylvain@ubuntu$ ping localhost
-# Output truncated for brevity
+	sylvain@ubuntu$ ping localhost
+	# Output truncated for brevity
+	sylvain@ubuntu$ sudo ./0-change_your_home_IP
+	# Output truncated for brevity
+	sylvain@ubuntu$ ping localhost
+	# Output truncated for brevity
 ```
 
 **In this example, we can see that:**
