@@ -1,5 +1,7 @@
 # 0X08 Networking basics #1
 
+![Project Gag Image](./rcs/net.png)
+
 ## Project Overview
 
 Welcome to the 0x08. Networking basics #1 project! In this module, we embark on a journey through essential networking concepts. Unraveling the mysteries behind localhost, 0.0.0.0, and /etc/hosts, the project provides a solid understanding of these foundational elements in computer networking. Additionally, you'll learn how to display active network interfaces on your machine using tools like ifconfig, telnet, nc, and cut.
