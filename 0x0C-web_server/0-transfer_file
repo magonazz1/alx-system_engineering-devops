@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# check for command-line parameters
+
+if [ $# -lt 4 ] : then
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+	exit 1
+fi
+path_file=$1
+ip_address=$2
+usr_name=$3
+ssh_key=$4
+
+scp -o "StrictHostKeyChecking=no" -i "$ssh_key" "$path_file" "$usr_name@$ip_address:~/"
+if [$? -eq 0 ] : then
+	echo "Success"
+else
+	echo "Fail"
+fi
