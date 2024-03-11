@@ -2,18 +2,18 @@
 
 ## Issue Summary:
 
-- **Duration:** March 12, 2024, 9:00 AM to 10:30 AM (PST)
-- **Impact:** Temporary disruption of office Wi-Fi; productivity levels plummeted as employees resorted to old-fashioned pen-and-paper communication methods.
-- **Root Cause:** Overzealous cleaning staff accidentally unplugged the router while vacuuming.
+- **Duration:**		March 08, 2024, 9:00 AM to 10:30 AM (CAT)
+- **Impact:**		Temporary disruption of office Wi-Fi; productivity levels plummeted as employees resorted to old-fashioned pen-and-paper communication methods.
+- **Root Cause:**	Overzealous cleaning staff accidentally unplugged the router while vacuuming.
 
 ## Timeline:
 
-- **9:00 AM:** The issue was detected when emails stopped loading, and the office Slack channel fell eerily silent.
-- **9:05 AM:** An engineer, sipping on cold coffee, noticed the Wi-Fi router's conspicuous absence of blinking lights.
-- **9:10 AM:** Initial investigation revolved around network configurations and recent software updates, overlooking the mundane possibility of a power outage.
-- **9:20 AM:** Escalation to the facilities team, who were busy deciphering cryptic instructions from the vacuum cleaner manual.
-- **9:30 AM:** A eureka moment struck as the janitor confessed to inadvertently disconnecting the router while zealously vacuuming under desks.
-- **9:45 AM:** Router reconnected, Wi-Fi signal restored, and employees rejoiced as the digital world once again welcomed them with open arms.
+- **9:00 AM:**		The issue was detected when emails stopped loading, and the office Slack channel fell eerily silent.
+- **9:05 AM:**		An engineer, sipping on cold coffee, noticed the Wi-Fi router's conspicuous absence of blinking lights.
+- **9:10 AM:**		Initial investigation revolved around network configurations and recent software updates, overlooking the mundane possibility of a power outage.
+- **9:20 AM:**		Escalation to the facilities team, who were busy deciphering cryptic instructions from the vacuum cleaner manual.
+- **9:30 AM:**		A eureka moment struck as the janitor confessed to inadvertently disconnecting the router while zealously vacuuming under desks.
+- **9:45 AM:**		Router reconnected, Wi-Fi signal restored, and employees rejoiced as the digital world once again welcomed them with open arms.
 
 ## Root Cause and Resolution:
 
